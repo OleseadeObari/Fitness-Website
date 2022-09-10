@@ -215,7 +215,6 @@ nav {
 .plan-c {
   background-color: #f9fbff;
   border-radius: 15px;
-  background-color: #0a1b3c;
 }
 .plan-b {
   background-color: #2465e3;
@@ -388,7 +387,7 @@ footer {
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 .sm-icons {
