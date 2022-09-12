@@ -168,6 +168,9 @@ nav {
   width: 32px;
   padding: 8px 0;
 }
+.fitness-writeup {
+  padding-top: 8px;
+}
 .section-three {
   background-color: #ffffff;
   padding-top: 6rem;
@@ -367,7 +370,7 @@ span p {
 
 footer {
   background-color: #0a1b3c;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-top: 4rem;
 }
 .footer-sections {
@@ -376,7 +379,7 @@ footer {
 }
 
 .section-two {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 .footer-row-a {
 }
@@ -389,10 +392,11 @@ footer {
   flex-direction: column-reverse;
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: -3rem;
 }
 
 .sm-icons {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   display: flex;
   justify-content: space-around;
 }
