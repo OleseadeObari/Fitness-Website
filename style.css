@@ -46,7 +46,6 @@ nav {
 }
 .btn {
   text-align: center;
-
   padding: 7px 15px;
   background-color: #2465e3;
   border-radius: 5px;
@@ -57,19 +56,6 @@ nav {
   color: #ffffff;
 }
 
-/* .btn {
-  text-align: center;
-
-  padding: 10px 30px;
-  background-color: #2465e3;
-  border-radius: 5px;
-}
-.btn a,
-.btnn a {
-  text-decoration: none;
-  color: #ffffff;
-} */
-
 .container {
   margin: 0 0.7rem 0 0.7rem;
   background-color: #fbfbfb;
@@ -77,10 +63,7 @@ nav {
 .section-one {
   margin-top: 5rem;
 }
-/* .section-one {
-  margin-top: 5rem;
-  height: 100vh;
-} */
+
 .banner-carrd {
   position: relative;
 }
@@ -101,6 +84,7 @@ nav {
   /* width: 85%; */
   /* font-size: 16px; */
 }
+
 .email-btn {
   position: absolute;
   top: 60%;
@@ -138,6 +122,7 @@ nav {
   text-align: center;
   margin: 2rem 0 0 0;
   font-size: 1.3rem;
+  color: #0a1b3c;
 }
 .boxes {
   margin-top: 2rem;
@@ -171,6 +156,12 @@ nav {
 .fitness-writeup {
   padding-top: 8px;
 }
+.fitness-writeup h4 {
+  color: #0a1b3c;
+}
+.fitness-writeup p {
+  color: #9b9b9b;
+}
 .section-three {
   background-color: #ffffff;
   padding-top: 6rem;
@@ -178,6 +169,7 @@ nav {
 .section-three-header h3 {
   font-size: 1.3rem;
   text-align: center;
+  color: #0a1b3c;
 }
 
 .section-three-features {
@@ -208,6 +200,7 @@ nav {
   margin: 2rem 0;
   font-size: 1.3rem;
   text-align: center;
+  color: #0a1b3c;
 }
 .package-plan {
   display: flex;
@@ -299,7 +292,7 @@ span p {
 
 .section-five {
   background: #f5f5f5;
-  margin: 3rem 0 3rem 0;
+  padding: 3rem 0 2.5rem 0;
   text-align: center;
 }
 .section-five-header {
@@ -331,6 +324,7 @@ span p {
 .box-two-writeup p,
 .box-three-writeup p {
   font-size: 0.8rem;
+  color: #0a1b3c;
 }
 
 .box-one-writeup,
@@ -370,8 +364,10 @@ span p {
 
 footer {
   background-color: #0a1b3c;
-  border-radius: 5px;
+
   margin-top: 4rem;
+  margin-left: -0.7rem;
+  margin-right: -0.7rem;
 }
 .footer-sections {
   display: flex;
@@ -421,4 +417,208 @@ footer {
   text-decoration: none;
   color: #ffffff;
   font-size: 0.6rem;
+}
+
+@media screen and (min-width: 48em) {
+  nav {
+    color: #0a1b3c;
+    display: block;
+  }
+  .banner-carrd img {
+    width: 100%;
+    max-height: 50%;
+  }
+  .banner-text h2 {
+    width: 85%;
+    font-size: 2.5rem;
+  }
+  .email-btn {
+    position: absolute;
+    top: 57%;
+    left: 7%;
+    color: #ffffff;
+    height: 50px;
+
+    width: 280px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+  }
+  .email input {
+    position: relative;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-left: 4px;
+  }
+  .btnn {
+    font-size: 10px;
+    position: absolute;
+    top: 10%;
+    left: 70.5%;
+    background-color: #2465e3;
+    padding: 12px;
+    border-radius: 3px;
+  }
+
+  .section-two-header h3 {
+    font-size: 1.6rem;
+  }
+  .boxes {
+    display: flex;
+  }
+  .fitness-writeup h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .fitness-writeup p {
+    padding-top: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .box2,
+  .fitness-writeup {
+    padding-bottom: 1rem;
+  }
+  .fitness-image {
+    margin: 0 auto;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    border-right: 2px solid #2465e3;
+    border-radius: 5px;
+  }
+  .box2 {
+    margin: 1.7rem 0.5rem;
+  }
+  .section-three-header h3 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .component-one {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .component-two {
+    display: flex;
+  }
+  .marge {
+    margin: 0 1rem;
+  }
+  .feature-carrd img {
+    border-radius: 6px;
+  }
+  .feature-text h5 {
+    font-size: 1rem;
+  }
+  .section-four-header h3 {
+    margin: 3rem 0 2rem 0;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .package-plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .plan-a,
+  .plan-c {
+    background-color: #f9fbff;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .plan-a {
+    margin-left: 1.5rem;
+  }
+  .plan-c {
+  }
+  .plan-b {
+    background-color: #2465e3;
+    border-radius: 15px;
+    margin: 0 0.7rem;
+  }
+  .plan-features p {
+    font-size: 0.8rem;
+  }
+  .feature-one img,
+  .feature-two img,
+  .feature-three img,
+  .feature-four img {
+    width: 20px;
+  }
+  .subscribe {
+    width: 184px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 2px;
+    border-radius: 5px;
+  }
+  .basic,
+  .regular,
+  .premium {
+    margin: 0 auto;
+  }
+  .testimonials {
+    display: flex;
+  }
+
+  .section-five {
+    background: #f5f5f5;
+    padding: 3rem 0 2.5rem 0;
+    text-align: center;
+  }
+  .section-five-header h3 {
+    font-size: 1.7rem;
+  }
+  .box-one,
+  .box-two,
+  .box-three {
+    margin: 0 0.5rem;
+  }
+  .profile-carrd img {
+    width: 35px;
+  }
+
+  .footer-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+  }
+  .links-head {
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .footer-row-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer-row2 {
+    margin: 0 2rem;
+  }
+  .link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    /* padding: 10px 0; */
+  }
+  .links a {
+    font-size: 0.7rem;
+  }
 }
